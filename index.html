@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tukson Clothes | Inicio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg back">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="img" src="./img/logo.jpg" alt="Logo Tukson Clothes"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catálogo
+                </a>
+                <ul class="dropdown-menu bgNavImg">
+                  <li>
+                    <a class="dropdown-item bgDrop" href="./html/RopaHombre.html">Ropa de Hombre</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item bgDrop" href="./html/RopaMujer.html">Ropa de Mujer</a>
+                  </li>
+                  <li><a class="dropdown-item bgDrop" href="./html/Calzado.html">Calzado</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex w-50">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Buscador"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+            <div class="my-2">
+              <a href="./html/IniciarSesion.html" class="text-black me-3"
+                >Iniciar Sesión</a
+              >
+              <a href="./html/Registrarse.html" class="text-black">Registrarse</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/r1.jpg" class="d-block w-100 car" alt="ropa1" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/r2.jpg" class="d-block w-100 car" alt="ropa2" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <footer class="back p-3">
+      <section class="d-flex justify-content-between">
+        <div>
+          <h5>Contáctanos</h5>
+          <a href="https://www.facebook.com" class="me-2" target="_blank"
+            ><img src="img/fb.png" alt="Facebook" width="50px"
+          /></a>
+          <a href="https://twitter.com/home" class="me-2" target="_blank"
+            ><img src="img/tw.png" alt="Twitter" width="50px"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="img/ig.png" alt="Instagram" width="50px"
+          /></a>
+        </div>
+        <div class="me-lg-5">
+          <h6 class="text-black">Suscribite para recibir novedades</h6>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ingrese su E-mail"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
